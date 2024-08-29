@@ -34,8 +34,8 @@ https://discord.com/invite/bjKpRBtkHv
 https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
 
 🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/573147616444
+• wa.me/+79011033947
+• wa.me/+79011033947
 • https://www.facebook.com/elrebelde21
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀`, `🚀 *¡Nuevos planes para futuros resellers disponibles!* 🚀

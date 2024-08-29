@@ -5,5 +5,5 @@ await m.reply(lenguajeGB.smsIDserie())
 await m.reply(`${sn}`.trim())
 }
 handler.command = /^(myns|ceksn|numid|idregistro|idregister)$/i
-handler.register = true
+
 export default handler

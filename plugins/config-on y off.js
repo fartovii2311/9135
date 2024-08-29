@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
-let isEnable = /true|enable|(turn)?on|1/i.test(command)
+let isEnable = /true|включить|(turn)?on|1/i.test(command)
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[conn.user.jid] || {}
@@ -9,7 +9,7 @@ let isAll = false
 let isUser = false
 switch (type) {
 		
-case 'restrict': case 'restringir':
+case 'ограничить': case 'restringir':
 isAll = true
 if (!isOwner) {
 global.dfail('owner', m, conn)
@@ -18,7 +18,7 @@ throw false
 bot.restrict = isEnable
 break
 		
-case 'welcome': case 'bienvenida':
+case 'приветствие': case 'bienvenida':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -52,7 +52,7 @@ throw false
 chat.antiver = isEnable 
 break
 		
-case 'antilink': case 'antienlace':
+case 'антиссылка': case 'antienlace':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -61,7 +61,7 @@ throw false
 chat.antiLink = isEnable
 break
 
-case 'antilink2': case 'antienlace2':
+case 'антиссылка2': case 'antienlace2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -70,7 +70,7 @@ throw false
 chat.antiLink2 = isEnable 
 break
 
-case 'antitiktok': case 'antitk': case 'antitik':
+case 'антитт': case 'antitk': case 'antitik':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -79,7 +79,7 @@ throw false
 chat.antiTiktok = isEnable 
 break
 		
-case 'antiyoutube': case 'antiyt':
+case 'антиютуб': case 'antiyt':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -88,7 +88,7 @@ throw false
 chat.antiYoutube = isEnable 
 break
 		
-case 'antitelegram': case 'antitl': case 'antitele': case 'antitg': case 'antitel':
+case 'антителеграм': case 'antitl': case 'antitele': case 'antitg': case 'antitel':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -97,7 +97,7 @@ throw false
 chat.antiTelegram = isEnable 
 break
 		
-case 'antifacebook': case 'antifb': case 'antifbook':
+case 'антифейсбук': case 'antifb': case 'antifbook':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -106,7 +106,7 @@ throw false
 chat.antiFacebook = isEnable 
 break
 		
-case 'antiinstagram': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
+case 'антиинстаграм': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -115,7 +115,7 @@ throw false
 chat.antiInstagram = isEnable 
 break
 		
-case 'antitwitter': case 'antitw': case 'antitwit': case 'antitwter': case 'antitwiter': case 'antiTwr':
+case 'антитвитер': case 'antitw': case 'antitwit': case 'antitwter': case 'antitwiter': case 'antiTwr':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -170,7 +170,7 @@ throw false
 bot.antiCall = isEnable
 break
 		
-case 'modoadmin': case 'modeadmin':
+case 'толькоадмин': case 'modeadmin':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -179,7 +179,7 @@ throw false
 chat.modoadmin = isEnable          
 break    
 		
-case 'antidelete': case 'antieliminar': case 'delete':
+case 'интиудаление': case 'antieliminar': case 'delete':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -198,7 +198,7 @@ throw false
 bot.antiPrivate = isEnable
 break
 		
-case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
+case 'реакция': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -258,5 +258,5 @@ m.reply(`${lenguajeGB['smsAvisoEG']()}*⭔ ${lenguajeGB.smsConfi2bot()}:* _${typ
 *⭔ ${lenguajeGB.smsConfi3bot()}:* _${isEnable ? lenguajeGB.smsConfi5bot() : lenguajeGB.smsConfi6bot()}_
 *⭔ ${lenguajeGB.smsConfi4bot()}:* ${isAll ? packname : isUser ? '' : '_' + lenguajeGB.smsConfi7bot() + '_'}`)
 }
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler

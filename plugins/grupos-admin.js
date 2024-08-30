@@ -9,9 +9,9 @@ const isCommand5 = /^(setdesk|setdesc|newdesc|descripción|descripcion|cambiarde
 const isCommand6 = /^(setname|newnombre|nuevonombre|cambiarnombre)$/i.test(command);
 const isCommand7 = /^(setpp(group|grup|gc)?|cambiarpp)$/i.test(command)
 const isCommand8 = /^(nuevolink|nuevoenlace|revoke|resetlink)$/i.test(command)
-const isCommand9 = /^(kick|echar|hechar|sacar|ban)$/i.test(command)
-const isCommand10 = /^(group|grupo)$/i.test(command)
-const isCommand11 = /^(tagall|invocar|invocacion|todos|invocación)$/i.test(command)
+const isCommand9 = /^(снести|echar|hechar|sacar|ban)$/i.test(command)
+const isCommand10 = /^(группу|grupo)$/i.test(command)
+const isCommand11 = /^(вызов|invocar|invocacion|todos|invocación)$/i.test(command)
 const isCommand12 = /^(prohibir|prohibit|privar|deprive)$/i.test(command)
 const isCommand13 = /^(add|agregar|invitar|invite|añadir)$/i.test(command)
 
@@ -143,8 +143,8 @@ break
 case isCommand10:
 pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg'  
 let isClose = { 
-'open': 'not_announcement',
-'close': 'announcement',
+'открыть': 'not_announcement',
+'закрыть': 'announcement',
 'abierto': 'not_announcement',
 'cerrado': 'announcement',
 'abrir': 'not_announcement',

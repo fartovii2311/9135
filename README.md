@@ -100,7 +100,7 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 - **Estado de servicios:** [`Aquí`](https://status.corinplus.com)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
 - **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/K235lkvaGvlGRQKYm26xZP)
-- **Contacto:** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1)
+- **Contacto:** [`Лилит`](https://wa.me/message/B3KTM5XN2JMRD1)
 - **Contacto:** [`elrebelde21`](https://facebook.com/elrebelde21)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - GataBotLite-MD**</summary><img src="https://telegra.ph/file/b7e3721c6ae2caeb7f44c.jpg"></details>

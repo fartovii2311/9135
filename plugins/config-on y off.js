@@ -210,8 +210,7 @@ break
 default:
 if (!/[01]/.test(command)) return m.reply(`
 ${lenguajeGB.smsConfi1bot()}\n
-${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.detect ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'avisos' : 'detect'}*\n
+
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.welcome ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
 🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'bienvenida' : 'welcome'}*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiLink ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}

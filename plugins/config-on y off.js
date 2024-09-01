@@ -106,7 +106,7 @@ throw false
 chat.antiFacebook = isEnable 
 break
 		
-case 'антиинстаграм': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
+case 'антиинстаграмм': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -258,5 +258,5 @@ m.reply(`${lenguajeGB['smsAvisoEG']()}*⭔ ${lenguajeGB.smsConfi2bot()}:* _${typ
 *⭔ ${lenguajeGB.smsConfi3bot()}:* _${isEnable ? lenguajeGB.smsConfi5bot() : lenguajeGB.smsConfi6bot()}_
 *⭔ ${lenguajeGB.smsConfi4bot()}:* ${isAll ? packname : isUser ? '' : '_' + lenguajeGB.smsConfi7bot() + '_'}`)
 }
-handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?в(ы|лючен)|[01])$/i
 export default handler

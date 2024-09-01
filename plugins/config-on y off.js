@@ -211,27 +211,27 @@ default:
 if (!/[01]/.test(command)) return m.reply(`
 ${lenguajeGB.smsConfi1bot()}\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.detect ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/выключить\`\`\`*${lenguajeGB.lenguaje() == 'es' ? 'avisos' : 'detect'}*\n
+🌼 \`\`\`${usedPrefix}Включить/выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'avisos' : 'detect'}*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.welcome ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*${lenguajeGB.lenguaje() == 'es' ? 'bienvenida' : 'welcome'}*\n
+🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'bienvenida' : 'welcome'}*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiLink ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*${lenguajeGB.lenguaje() == 'es' ? 'antienlace' : 'antilink'}*\n
+🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'antienlace' : 'antilink'}*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiLink2 ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*${lenguajeGB.lenguaje() == 'es' ? 'antienlace2' : 'antilink2'}*\n
+🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'antienlace2' : 'antilink2'}*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antitiktok*\n
+🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *аннтиТТ*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiYoutube ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antiyoutube*\n
+🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *антиютуб*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiTelegram ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antitelegram*\n
+🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *антителеграм*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiFacebook ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antifacebook*\n
+🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *антифейсбуб*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiInstagram ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antinstagram*\n
+🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *антиинстаграм*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antiTwitter ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*antitwitter*\n
+🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *антитвитер*\n
 ${lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? chat.antifake ? '✅' : '❌' : lenguajeGB.smsNoGg()}`}
-🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\`*${lenguajeGB.lenguaje() == 'es' ? 'antinternacional' : 'antifake'}*\n
+🌼 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'antinternacional' : 'antifake'}*\n
 ${lenguajeGB.smsParaOw() + ' ' + `${bot.restrict ? '✅' : '❌'}`}
 🌸 \`\`\`${usedPrefix}Включить/Выключить\`\`\` *${lenguajeGB.lenguaje() == 'es' ? 'restringir' : 'restrict'}*\n
 ${lenguajeGB.smsParaOw() + ' ' + `${global.opts['self'] ? '❌' : '✅'}`}

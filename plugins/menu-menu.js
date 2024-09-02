@@ -51,9 +51,9 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 *│*
  `.trim()
     
-const vi = ['https://files.vgtimes.ru/posts/2023-03/1680104258_27_03_2023_09_15_39_198_.jpg',
-'https://files.vgtimes.ru/posts/2023-03/1680104258_27_03_2023_09_15_39_198_.jpg',
-'https://files.vgtimes.ru/posts/2023-03/1680104258_27_03_2023_09_15_39_198_.jpg']
+const vi = ['/media/menus/Menu3.jpg',
+'/media/menus/Menu3.jpg',
+'/media/menus/Menu3.jpg']
 try {
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, contextInfo: fakeChannel2 })
 //await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender] }, { quoted: fkontak }) 

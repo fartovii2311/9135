@@ -51,9 +51,9 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 *│*
  `.trim()
     
-const vi = ['/media/menus/Menu3.jpg',
-'/media/menus/Menu3.jpg',
-'/media/menus/Menu3.jpg']
+const vi = ['/media/menus/менюю.jpg',
+'/media/menus/менюю.jpg',
+'/media/menus/менюю.jpg']
 try {
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, contextInfo: fakeChannel2 })
 //await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender] }, { quoted: fkontak }) 

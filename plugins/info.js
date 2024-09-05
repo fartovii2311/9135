@@ -22,7 +22,7 @@ const isCommand2 = /^(cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?ga
 const isCommand3 = /^(gata(bot)?groups?|grupos(ofc|degatabot|gb)|grupogb|groupsgb|gatagroups?|grupos|group(ofc|sofc))$/i.test(command) 
 const isCommand4 = /^(жшгплгенвалне)$/i.test(command) 
 const isCommand5 = /^(instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot)$/i.test(command) 
-const isCommand6 = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i.test(command) 
+const isCommand6 = /^(создатель|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i.test(command) 
 const isCommand7 = /^(group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista)$/i.test(command) 
 const isCommand8 = /^(info(gata|bot)|informaci(ón|on)(gata|bot))$/i.test(command) 
 const isCommand9 = /^(contactos?|contacts?)$/i.test(command) 
@@ -115,40 +115,14 @@ reportError(e)
 break
     
 case isCommand5:
-let codigo = `termux-setup-storage
-apt update
-apt upgrade
-pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/GataNina-Li/GataBotLite-MD 
-cd GataBotLite-MD
-yarn install
-npm install
-npm start`
-let codigo2 = `
-heroku/nodejs\n
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git\n
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git`
-let codigo3 = `
-git clone https://github.com/GataNina-Li/GataBotLite-MD
-cd GataBotLite-MD
-npm install
-npm update
-node .`
+let codigo = `
+.`
 try{	
 let termux = `*◎ T E R M U X*\n\n${codigo}`
-let replit = `*◎ R E P L I T*\n\nhttps://replit.com/github/GataNina-Li/GataBotLite-MD`
-let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBotMDLite-Heroku`
+let replit = `*◎ R E P L I T*\n\nhttps://replit.com`
+let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com`
 let windows = `*◎ W I N D O W S / V P S / R D P*\n
-⎔ _Git_
-https://git-scm.com/downloads
-⎔ _NodeJS_
-https://nodejs.org/en/download
-⎔ _FFmpeg_
-https://ffmpeg.org/download.html
-⎔ _ImageMagick_
-https://imagemagick.org/script/download.php
-⎔ _Yarn_
-https://classic.yarnpkg.com/en/docs/install#windows-stable`
+`
 await conn.reply(m.chat, termux + '\n\n' + replit + '\n\n' + heroku + '\n\n' + windows, fkontak)
 } catch (e) {
 reportError(e)
@@ -340,7 +314,7 @@ await m.reply(lenguajeGB.smsReportGB5())
 break
 }}
 
-handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|degatabot|gb)|grupogb|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|жщшгпшдгнп|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
+handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|degatabot|gb)|grupogb|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|жщшгпшдгнп|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|создатель|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
 export default handler
 
 function clockString(ms) {

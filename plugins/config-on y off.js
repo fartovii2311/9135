@@ -106,7 +106,7 @@ throw false
 chat.antiFacebook = isEnable 
 break
 		
-case 'антиинстаграмм': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
+case 'антиинстаграм': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -151,7 +151,7 @@ throw false
 bot.jadibotmd = !isEnable
 break 
 		
-case 'autoread': case 'autovisto':
+case 'авточтение': case 'autovisto':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
@@ -161,7 +161,7 @@ bot.autoread2 = isEnable
 global.opts['autoread'] = isEnable  
 break
 		
-case 'anticall': case 'antillamar': case 'antillamada':
+case 'антивызов': case 'antillamar': case 'antillamada':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)

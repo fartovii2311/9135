@@ -45,11 +45,10 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 //  it = Italiano
 global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
 
-// ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
+// ES ➜ Consigue Apikey en https://platform.openai.com
 global.openai_key = 'sk-0'
 
-// ES ➜ Consigue tu ID de organizacion en: https://platform.openai.com/account/org-settings
-global.openai_org_id = 'org-3'
+// ES ➜ Consigue tu ID de organizacion en: https://platform.openai.com
 
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]

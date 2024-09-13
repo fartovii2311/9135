@@ -66,7 +66,7 @@ break
     
 case isCommand2:
 try{
-let media = './media/menus/Menu2.jpg'
+let media = './media/menus/менюю.jpg'
 let str = `
 ◎ *GITHUB*
 *${md}*\n
@@ -135,8 +135,8 @@ taguser = conn.getName(m.sender)
 _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 let pp = await conn.profilePictureUrl(`${global.conn.user.jid.split`@`[0]}` + '@s.whatsapp.net', 'image').catch(_ => gataImg.getRandom())
 let aa = `*_🍄 ${lenguajeGB.smsCreA()} ${taguser}, ${lenguajeGB.smsCreB()} ${_package.name} ${lenguajeGB.smsCreC()}_*\n\n` 
-let bb = `${packname}\n*◎ Wa.me/${owner[0][0]}*\n\n`
-await conn.sendFile(m.chat, pp, 'gata.jpg', aa + bb + ig, fkontak) 
+let bb = `${packname}\n*◎ Wa.me/${ownменюю.jpger[0][0]}*\n\n`
+await conn.sendFile(m.chat, pp, 'менюю.jpg', aa + bb + ig, fkontak) 
 } catch (e) {
 reportError(e)
 }    
@@ -190,7 +190,7 @@ let info = `
 🌻꙰᠁❥ *◜${lenguajeGB.smsVl1()}◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}
 🌼꙰᠁❥ *◜${lenguajeGB.smsBT9()}◞* ⇢ ${totaljadibot.length}`.trim()
 
-await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', info, fkontak) 
+await conn.sendFile(m.chat, gataImg.getRandom(), 'менюю.jpg', info, fkontak) 
 } catch (e) {
 reportError(e)
 }     

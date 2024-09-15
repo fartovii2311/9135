@@ -36,12 +36,12 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget && wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBotLite-MD/master/gatalite.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget && wget -O - https://raw.githubusercontent.com | bash
 ```
 #### EN CASO QUE QUIERA USAR ESTE MÉTODO DEBE DE EDITAR (Previo a una Bifurcación)
-- [`Repositorio`](https://github.com/GataNina-Li/GataBotLite-MD/blob/14da583cddcf76285988dadb76cfc77f9373d8a8/gatalite.sh#L155)
-- [`Nombre del Bot`](https://github.com/GataNina-Li/GataBotLite-MD/blob/14da583cddcf76285988dadb76cfc77f9373d8a8/gatalite.sh#L159)
-- Actualizar: `https://raw.githubusercontent.com/GataNina-Li/GataBotLite-MD/master/gatalite.sh`
+- [`Repositorio`](https://github.com)
+- [`Nombre del Bot`](https://github.com)
+- Actualizar: `https://raw.githubusercontent.com`
 ### 🌼 INSTALACIÓN MANUAL - TERMUX 🌼
 ```bash
 termux-setup-storage
@@ -85,7 +85,7 @@ pm2 delete all
 > **Note** Demanda consumo de RAM y CPU, el resultado mejora mientras las especificaciones del dispositivo sean moderadas
 ----
 ### 🌹 INSTALACIÓN EN REPLIT 🌹
-<a target="_blank" href="https://replit.com/github/GataNina-Li/GataBotLite-MD"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
+<a target="_blank" href="https://replit.com/github/GataNina-Li/GataBotLite-MD"><img alt="Run on Replit" src="https://binbashbanana.github"></a>
 > **Note** Agregue estos comandos en Shell para empezar la instalación automática por Replit:
 ```bash
 npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.js
@@ -98,10 +98,10 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 - **Dashboard:** [`Aquí`](https://dash.corinplus.com)
 - **Panel:** [`Aquí`](https://panel.corinplus.com)
 - **Estado de servicios:** [`Aquí`](https://status.corinplus.com)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/K235lkvaGvlGRQKYm26xZP)
-- **Contacto:** [`Лилит`](https://wa.me/message/B3KTM5XN2JMRD1)
-- **Contacto:** [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com)
+- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com)
+- **Contacto:** [`Лилит`](https://wa.me/message)
+- **Contacto:** [`elrebelde21`](https://facebook.com)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - GataBotLite-MD**</summary><img src="https://telegra.ph/file/b7e3721c6ae2caeb7f44c.jpg"></details>
 -----
@@ -130,7 +130,7 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 * Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 ```bash
-git clone https://github.com/GataNina-Li/GataBotLite-MD
+git clone https://github.com
 cd GataBotLite-MD
 npm install -g yarn
 yarn
@@ -164,20 +164,20 @@ Set-ExecutionPolicy RemoteSigned
 
 ### 💠 [`IDIOMAS DISPONIBLES PARA GATABOTLITE`](https://github.com/GataNina-Li/GataBotLite-MD/blob/f406e0f1bba1ca7cd6ee4ef3208e156135a24dce/config.js#L31) 
 > **Multi Lenguaje Dinámico GB:** Disponibilidad de usar varios idiomas simultáneamente.
-#### ✨ Español  [`Editar Idioma`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/espanol.js)
-#### ✨ Inglés (English) [`Edit Language`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/ingles.js)
-#### ✨ Portugués (Português) [`Idioma de Edição`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/portugues.js)
-#### ✨ Indonesio (Bahasa Indonesia) [`Mengedit Bahasa`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/indonesio.js) 
-#### ✨ Árabe (عرب) [`عدل اللغة`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/arabe.js)
-#### ✨ Alemán (Deutsch) [`Sprache bearbeiten`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/aleman.js)
-#### ✨ Italiano (Italiano) [`Modifica lingua`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/italiano.js)
+#### ✨ Español  [`Editar Idioma`](https://github.com)
+#### ✨ Inglés (English) [`Edit Language`](https://github.com)
+#### ✨ Portugués (Português) [`Idioma de Edição`](https://github.com)
+#### ✨ Indonesio (Bahasa Indonesia) [`Mengedit Bahasa`](https://github.com) 
+#### ✨ Árabe (عرب) [`عدل اللغة`](https://github.com)
+#### ✨ Alemán (Deutsch) [`Sprache bearbeiten`](https://github.com)
+#### ✨ Italiano (Italiano) [`Modifica lingua`](https://github.com)
 ----
-> **Note** The translations are not perfect, it is only a reference, if you want to collaborate with the language or with another that is not on the list, contact me [`Contact me`](https://wa.me/message/C45GXBEFTPONE1)
+> **Note** The translations are not perfect, it is only a reference, if you want to collaborate with the language or with another that is not on the list, contact me [`Contact me`](https://wa.me)
 
 ### 😸 CREADORA 
-[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
+[![GataNina-Li](https://github.com) 
 
 ### 😸 DESARROLLADORES
-<a href="https://github.com/GataNina-Li/GataBotLite-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=GataNina-Li/GataBotLite-MD" /> 
+<a href="https://github.com">
+<img src="https://contrib.rocks" /> 
 </a>

@@ -85,7 +85,7 @@ pm2 delete all
 > **Note** Demanda consumo de RAM y CPU, el resultado mejora mientras las especificaciones del dispositivo sean moderadas
 ----
 ### 🌹 INSTALACIÓN EN REPLIT 🌹
-<a target="_blank" href="https://replit.com/github/GataNina-Li/GataBotLite-MD"><img alt="Run on Replit" src="https://binbashbanana.github"></a>
+<a target="_blank" href="https://replit.com"><img alt="Run on Replit" src="https://binbashbanana.github"></a>
 > **Note** Agregue estos comandos en Shell para empezar la instalación automática por Replit:
 ```bash
 npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.js
@@ -106,7 +106,7 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - GataBotLite-MD**</summary><img src="https://telegra.ph/file/b7e3721c6ae2caeb7f44c.jpg"></details>
 -----
 ### 📦⛏️ BOXMINE HOST 
-[![YouTube](https://img.shields.io/badge/BoxMine_Host-World-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@boxminehost)
+[![YouTube](https://img.shields.io)](https://www.youtube.com)
 
 > Tutorial para activar **GataBotLite-MD** en un servidor reconocido y para todos.
 
@@ -138,7 +138,7 @@ npm install
 npm start
 ```
 ### Instalación de FFmpeg para Windows 
-* Descarga la siguiente versión de FFmpeg [`Aquí`](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z).
+* Descarga la siguiente versión de FFmpeg [`Aquí`](https://www.gyan.dev).
 * Extraer FFmpeg con [`7-Zip`](https://www.7-zip.org/download.html)
 * Cambie el nombre de la carpeta extraída a `FFmpeg`.
 * Mover archivos a `C:\` path.
@@ -162,7 +162,7 @@ Set-ExecutionPolicy RemoteSigned
 ```
 > Aparecerá un mensaje de advertencia preguntando si deseas cambiar la Política de ejecución. Confirma con "Y" y presiona Enter. Luego ya puede volver a ejecutar el comando `yarn`
 
-### 💠 [`IDIOMAS DISPONIBLES PARA GATABOTLITE`](https://github.com/GataNina-Li/GataBotLite-MD/blob/f406e0f1bba1ca7cd6ee4ef3208e156135a24dce/config.js#L31) 
+### 💠 [`IDIOMAS DISPONIBLES PARA GATABOTLITE`](https://github.com) 
 > **Multi Lenguaje Dinámico GB:** Disponibilidad de usar varios idiomas simultáneamente.
 #### ✨ Español  [`Editar Idioma`](https://github.com)
 #### ✨ Inglés (English) [`Edit Language`](https://github.com)

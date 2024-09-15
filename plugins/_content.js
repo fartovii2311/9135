@@ -22,7 +22,7 @@ global.canal4 = channels.channel4
 global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
 var canalesInfo = [
-{ link: canal1, id: "120363160031023229@newsletter", name: "INFINITY-WA 💫" },
+{ link: canal1, id: "120363160031023229@newsletter", name: "Лилит 💫" },
 { link: canal2, id: "120363169294281316@newsletter", name: "GB - UPDATE ✨" },
 { link: canal3, id: "120363203805910750@newsletter", name: "Tips sobre Лилит 🤩" } 
 ]

@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import { search, download } from 'aptoide-scraper'
 
 let handler = async (m, { conn, usedPrefix, command, args, text }) => {
-   /*if (!args[0]) throw `Ex: ${usedPrefix + command} https://play.google.com/store/apps/details?id=com.linecorp.LGGRTHN`
+   /*if (!args[0]) throw `Ex: ${usedPrefix + command} https://play.google.com`
    let res = await fetch(`https://api.lolhuman.xyz/api/apkdownloader?apikey=${lolkeysapi}&package=${args[0]}`)
    let f = await res.json()
    let { apk_name, apk_icon, apk_version, apk_author, apk_link } = f.result

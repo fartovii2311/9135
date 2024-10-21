@@ -1,20 +1,33 @@
-export async function all(m, conn) {
-    //let res = await conn.groupAcceptInvite(code)
-    if (!m.isGroup)
-        return
-    let chats = global.db.data.chats[m.chat]
-    if (!chats.expired)
-        return !0
-    if (+new Date() > chats.expired) {
-    await m.reply(`что ж, бот покидает группу!!!, если вы хотите, чтобы он вернулся, используйте команду _#создатель_, чтобы он вернулся в группу!!`)
-       // let caption = `*bueno el bot se van del grupo!!!, si quiere que vuelva, usar el comando _#bottemporal_ para que vuelva al grupo!!*`
-        let pp = './media/menus/Menu2.jpg'
-    //await this.sendButton(m.chat, caption, wm, null, [['Eliminar caducado', '/delexpired'], ['Cec caducado', '/cekexpired']], null)
-//await this.sendButton(m.chat, caption, wm, pp, [['𝑯𝒂𝒔𝒕𝒂 𝒑𝒓𝒐𝒏𝒕𝒐 🤑', '.hastapronto']], null)
-//await conn.sendHydrated2(m.chat, caption, wm, pp, 'https://github.com', 'The loliBot-MD', ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, m,)
-        
-        await this.groupLeave(m.chat)
-        chats.expired = null
+//code made by wildovsky +7 932 250-38-44
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    if (!args[0] || isNaN(args[0])) throw `❗ Введите число, представляющее количество дней!\n\n📌 Пример :\n*${usedPrefix + command}* 30`
+
+    let who
+    if (m.isGroup) who = args[1] ? args[1] : m.chat
+    else who = args[1]
+    let readMore = '';
+    for (let i = 0; i < 4001; i++) {
+      readMore += String.fromCharCode(8206);
     }
+    var nDays = 86400000 * args[0]
+    var now = new Date() * 1
+    if (now < global.db.data.chats[who].expired) global.db.data.chats[who].expired += nDays
+    else global.db.data.chats[who].expired = now + nDays
+    let teks = `✅ *Успешно* ${readMore} 
+    ${args[0]} Дней`
+    conn.reply(m.chat, teks, m)
+}
+handler.help = ['expired <Дней>']
+handler.tags = ['owner']
+handler.command = /^(аренда|addexpired)$/i
+handler.rowner = true
+export default handler
+
+function msToDate(ms) {
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [d, ' *Дней*\n ', h, ' *Часов*\n ', m, ' *Минут*\n ', s, ' *Секунд* '].map(v => v.toString().padStart(2, 0)).join('')
 }
 

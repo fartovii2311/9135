@@ -82,7 +82,7 @@ let vn = './media/с днём рождения.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(спокойной ночи|шпать|споки|aviso importante|fiestadeladmin3)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(спокойной ночи|шпать|споки)/gi)) {    
 let vn = './media/спокойной ночи.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -97,116 +97,141 @@ let vn = './media/такси.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(тост|Sexo|Hora de sexo|hora de sexo)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(тост)/gi)) {    
 let vn = './media/тост.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Частушки|частушки|La oración|La biblia|La oración|la biblia|La Biblia)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(Частушки|частушки)/gi)) {    
 let vn = './media/Частушки.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(команды|что он может|Marica quien)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(команды|что он может)/gi)) {    
 let vn = './media/'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(новенький|это кто|murio el grupo|murió el grupo|Grupo muerto|grupo muerto)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(новенький|это кто)/gi)) {    
 let vn = './media/новенький.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(внимание|молчуны|призраки|merry chritmas)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(внимание|молчуны|призраки)/gi)) {    
 let vn = './media/'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(пидор|пидорас|пидрила|noche de amor|Noche de Paz)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(пидор|пидорас|пидрила)/gi)) {    
 let vn = './media/пидор.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Nyapasu|Nyanpasu|nyapasu|Nyapasu|Gambure|Yabure)/gi)) {    
-let vn = './media/otaku.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(пофиг)/gi)) {    
+let vn = './media/пофиг.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(ho me vengo|oh me vengo|o me vengo|Ho me vengo|Oh me vengo|O me vengo)/gi)) {    
-let vn = './media/vengo.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(отвали)/gi)) {    
+let vn = './media/отвали.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(oni-chan|onichan|o-onichan)/gi)) {    
-let vn = './media/Onichan.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(пошол нахуй|нихуя|иди в попу)/gi)) {    
+let vn = './media/надоел.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Pasa pack|vendes tu nudes|pasa video hot|pasa tu pack|pasa fotos hot|vendes tu pack|Vendes tu pack|Vendes tu pack?|vendes tu pack|Pasa Pack Bot|pasa pack Bot|pasa tu pack Bot|Pásame tus fotos desnudas|pásame tu pack|me pasas tu pak|me pasas tu pack|pasa pack)/gi)) {    
-let vn = './media/Elmo.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(я хочу|мечтаю)/gi)) {    
+let vn = './media/мечта.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Quién es tu senpai botsito 7u7|Quien es tu senpai botsito 7u7|Quién es tu sempai botsito 7u7|Quien es tu sempai botsito 7u7|Quién es tu senpai botsito 7w7|Quien es tu senpai botsito 7w7|quién es tu senpai botsito 7u7|quien es tu senpai botsito 7u7|Quién es tu sempai botsito 7w7|Quien es tu sempai botsito 7w7|Quién es tu senpai botsito|Quien es tu senpai botsito|Quién es tu sempai botsito|Quien es tu sempai botsito|Quién es tu senpai botsito|Quien es tu senpai botsito|quién es tu senpai botsito|quien es tu senpai botsito|Quién es tu sempai botsito|Quien es tu sempai botsito)/gi)) {    
-let vn = './media/Tu.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(красотка)/gi)) {    
+let vn = './media/красотка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(rawr|Rawr|RAWR|raawwr|rraawr|rawwr)/gi)) {    
-let vn = './media/rawr.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(красивая|вауу)/gi)) {    
+let vn = './media/красивая.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(siu|siiuu|ssiiuu|siuuu|siiuuu|siiiuuuu|siuuuu|siiiiuuuuu|siu|SIIIIUUU)/gi)) {    
-let vn = './media/siu.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(казел|сука|блять|пидар)/gi)) {    
+let vn = './media/казел.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(te amo|teamo)/gi)) {    
-let vn = './media/Te-amo.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(что делать|скучно)/gi)) {    
+let vn = './media/ебать.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(ooo tio|tio que rico)/gi)) {    
-let vn = './media/oh_tio.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(дурак)/gi)) {    
+let vn = './media/дурак.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(un Pato| un pato|un pato que va caminando alegremente|Un pato|Un Pato)/gi)) {    
-let vn = './media/pato.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(дура|дурочка)/gi)) {    
+let vn = './media/дура.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(UwU|uwu|Uwu|uwU|UWU)/gi)) {    
-let vn = './media/UwU.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(добро пожаловать|давай знакомиться)/gi)) {    
+let vn = './media/давай знакомитьсяс.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(vetealavrg|vete a la vrg|vete a la verga)/gi)) {    
-let vn = './media/vete a la verga.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(группа)/gi)) {    
+let vn = './media/группа.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(fiesta viernes|viernes|Viernes|viernes fiesta)/gi)) {    
-let vn = './media/viernes.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(😡)/gi)) {    
+let vn = './media/бот.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(vivan!!|vivan los novios|vivanlosnovios)/gi)) {    
-let vn = './media/vivan.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(афигеть)/gi)) {    
+let vn = './media/афигеть.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Yamete|yamete|Yamete kudasai|yamete kudasai)/gi)) {    
-let vn = './media/Yamete-kudasai.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(админы)/gi)) {    
+let vn = './media/админы.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(epico|esto va a ser epico)/gi)) {    
-let vn = './media/Epico.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(любят)/gi)) {    
+let vn = './media/любят.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
-    
+
+if (!chat.isBanned && chat.audios && m.text.match(/(что делаешь)/gi)) {    
+let vn = './media/пошол нахуй.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+        
+if (!chat.isBanned && chat.audios && m.text.match(/(блядина)/gi)) {    
+let vn = './media/сье.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(ты кто)/gi)) {    
+let vn = './media/ты кто.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+            
+if (!chat.isBanned && chat.audios && m.text.match(/(удалю)/gi)) {    
+let vn = './media/удалю.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(еду|приезжай|скоро буду)/gi)) {    
+let vn = './media/я приду к тебе.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
 if (!chat.isBanned && chat.audios && m.text.match(/(shitpost)/gi)) {    
 let vn = './media/shitpost.mp3'
 this.sendPresenceUpdate('recording', m.chat)   

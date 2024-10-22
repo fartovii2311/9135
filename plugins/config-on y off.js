@@ -29,7 +29,6 @@ throw false
 }
 chat.welcome = isEnable
 break
-	    	
 
 case 'аудио':
 if (m.isGroup) {
@@ -40,9 +39,6 @@ throw false;
 }
 chat.audios = isEnable;
 break
-
-
-
 
 case 'detect': case 'avisos': case 'autodetectar':  
 if (!m.isGroup) {

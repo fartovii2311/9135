@@ -27,7 +27,7 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 *> ┃*       *Создатель бота*
 *> ┃*              *Серега*
 *> ┃✧✧✧✧✧✧✧✧✧✧✧✧✧✧*
-*> ┗━━━━━━━━━━━ 
+*> ┗━━━━━━━━━━━* 
 
 
 > ┆ ——————«•»——————
@@ -80,9 +80,9 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 > ╰━━━⊰ {vs} ⊱━━━━დ*
  `.trim()
     
-const vi = ['/media/menus/менюю.jpg',
-'/media/menus/менюю.jpg',
-'/media/menus/менюю.jpg']
+const vi = ['/media/menus/менюю8.jpg',
+'/media/menus/менюю8.jpg',
+'/media/menus/менюю8.jpg']
 try {
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, contextInfo: fakeChannel2 })
 //await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender] }, { quoted: fkontak }) 

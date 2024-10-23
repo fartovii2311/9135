@@ -72,7 +72,7 @@ let vn = './media/музыка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(плов|fiesta del admin)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(плов)/gi)) {    
 let vn = './media/плов.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -152,8 +152,7 @@ let vn = './media/красотка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(красивая|вауу)/gi)) {    
-let vn = './media/красивая.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(красивая|вауу)/gi)) {     
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     

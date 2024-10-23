@@ -152,6 +152,10 @@ global.imagen6 = fs.readFileSync('./media/menus/менюю5.jpg')
 global.imagen7 = fs.readFileSync('./media/menus/менюю6.jpg')
 global.imagen8 = fs.readFileSync('./media/menus/менюю7.jpg')
 global.imagen9 = fs.readFileSync('./media/menus/менюю8.jpg')
+global.imagen10 = fs.readFileSync('./media/menus/менюю.jpg')
+global.imagen11 = fs.readFileSync('./media/menus/менюю.jpg')
+global.imagen12 = fs.readFileSync('./media/menus/менюю.jpg')
+global.imagen13 = fs.readFileSync('./media/menus/менюю.jpg')
 
 global.img = '/media/menus/менюю.jpg'
 global.img2 = '/media/menus/менюю.jpg'

@@ -11,7 +11,7 @@ text = `@${m.quoted.sender.split('@')[0].replace('@', '')}`
 } else if (m.quoted && m.quoted.fromMe) {
 text = `${m.mentionedJid.map((user)=>(user === m.sender) ? text.replace('@', '') : `${user.split('@')[0].replace('@', '')}`).join(', ')}`
 }
-if (/[a-zA-Z]/.test(text) && !text.includes('@')) return conn.reply(m.chat, `*El mensaje no puede estar sin etiquetar y solo puede etiquetar o responder al mensaje*`, m)
+if (/[a-zA-Z]/.test(text) && !text.includes('@')) return conn.reply(m.chat, `*Сообщение не может быть немаркированным, и вы можете только пометить сообщение или ответить на него*`, m)
 text = text.match(/[\d@]+/g).join('')
   
 let coger = `🥵 *Acaban de coger a ${text}* 🥵 
@@ -27,6 +27,6 @@ let coger = `🥵 *Acaban de coger a ${text}* 🥵
 await conn.reply(m.chat, coger, m, { mentions: [m.sender, text.replace('@', '') + '@s.whatsapp.net'] })
 }
 
-handler.command = /^(сыр|follar)$/i
+handler.command = /^(follar)$/i
 export default handler
 

@@ -46,7 +46,7 @@ const enlacesSinComillas = text.match(linkRegex2) || [];
 for (const link of enlacesSinComillas) {
 text = text.replace(link, '')
 }
-message = text.replace(/['привет"]/g, '').trim() 
+message = text.replace(/['"]/g, '').trim() 
  
 for (const link of enlaces) {
 const [_, code] = link.match(linkRegex) || []

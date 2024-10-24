@@ -20,7 +20,7 @@ let message = text.replace(linkRegex, '').trim();
 if (message.length < 10) return m.reply('_⚠️😿 El mensaje de promoción debe contener al menos 10 letras_')
 let url
 let q = m.quoted ? m.quoted : m
-let mime = (q.msg || q).mimetype || q.mediaType || ''
+let mime = (q.msg || q).mimetype || q.mediaType || 'укпрнрфуыцвкнецукеапрцукенп'
 const urlRegex = /https:\/\/[^\s/$.?#].[^\s]*\.(jpg|jpeg|png)/i
 const matches = text.match(urlRegex)
 if (matches) {

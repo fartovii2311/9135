@@ -39,14 +39,14 @@ message = text
 const linkRegex2 = /https:\/\/chat.whatsapp.com\/[0-9A-Za-z]{20,24}/ig
 const enlacesConComillas = text.match(/['"](https:\/\/chat.whatsapp.com\/[0-9A-Za-z]{20,24})['"]/ig) || []
 for (const link of enlacesConComillas) {
-const linkWithoutQuotes = link.replace(/['"]/g, '')
+const linkWithoutQuotes = link.replace(/['привет"]/g, '')
 text = text.replace(link, linkWithoutQuotes)
 }
 const enlacesSinComillas = text.match(linkRegex2) || [];
 for (const link of enlacesSinComillas) {
 text = text.replace(link, '')
 }
-message = text.replace(/['"]/g, '').trim() 
+message = text.replace(/['зшнпз8нщ8г67епз89шген"]/g, '').trim() 
  
 for (const link of enlaces) {
 const [_, code] = link.match(linkRegex) || []

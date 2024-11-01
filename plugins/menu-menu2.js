@@ -62,7 +62,6 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 > ┆ Что делать
 > ┆ Дурак
 > ┆ Дура
-> ┆ Добро пожаловать
 > ┆ Группа
 > ┆ Афигеть
 > ┆ Админы
@@ -72,6 +71,7 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 > ┆ Ты кто 
 > ┆ Удалю
 > ┆ Еду
+> ┆ Давай знакомиться
 > ┆ Бухаю
 > ┆ Милашки
 > ┆ Хочу парня

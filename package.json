@@ -18,16 +18,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/Whatsapp1231234/555",
+"homepage": "https://github.com/fartovii2311/356",
 "author": {
 "name": "Whatsapp1231234" }, 
     
 "repository": {
 "type": "git",
- "url": "git+https://github.com/Whatsapp1231234/555.git" },
+ "url": "git+https://github.com/fartovii2311/356.git" },
  
 "bugs": {
-"url": "https://github.com/Whatsapp1231234/555/issues" },
+"url": "https://github.com/fartovii2311/356/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.7",

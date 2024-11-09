@@ -48,8 +48,8 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/Whatsapp1231234/555 
-cd 555
+git clone https://github.com/fartovii2311/356 
+cd 356
 yarn install
 npm install
 npm start

@@ -198,7 +198,7 @@ throw false
 chat.delete = !isEnable
 break
 
-case 'antiprivado':
+case 'антиличка':
 case 'privado':
 isAll = true
 if (!isROwner) {

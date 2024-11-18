@@ -403,8 +403,8 @@ if (!chat.isBanned && chat.audios && m.text.match(/(лот)/gi)) {
                     this.sendPresenceUpdate('recording', m.chat)   
                     this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
                         
-                    if (!chat.isBanned && chat.audios && m.text.match(/(покажи сисики|сисики)/gi)) {    
-                    let vn = './media/покажи сисики.mp4'
+                    if (!chat.isBanned && chat.audios && m.text.match(/(покажи сиськи|сиськи)/gi)) {    
+                    let vn = './media/покажи сиськи.mp4'
                     this.sendPresenceUpdate('recording', m.chat)   
                     this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
                     

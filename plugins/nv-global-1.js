@@ -399,12 +399,12 @@ if (!chat.isBanned && chat.audios && m.text.match(/(лот)/gi)) {
                     this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
                         
                     if (!chat.isBanned && chat.audios && m.text.match(/(покажи сиськи|сиськи)/gi)) {    
-                        let vn = './media/покажи сиськи.mp3'
+                        let vn = './media/покажи сиськи.mp4'
                         this.sendPresenceUpdate('recording', m.chat)   
                         this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
                         if (!chat.isBanned && chat.audios && m.text.match(/(настроение)/gi)) {    
-                            let vn = './media/настроение.mp3'
+                            let vn = './media/настроение.mp4'
                             this.sendPresenceUpdate('recording', m.chat)   
                             this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 

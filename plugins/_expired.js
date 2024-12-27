@@ -1,4 +1,4 @@
-//code made by wildovsky +79011033947
+//code made by wildovsky +79883576985
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0] || isNaN(args[0])) throw `❗ Введите число, представляющее количество дней!\n\n📌 Пример :\n*${usedPrefix + command}* 30`
 

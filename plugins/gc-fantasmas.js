@@ -48,6 +48,5 @@ break
 handler.command = /^(fantasmas|молчуны)$/i
 handler.group = handler.botAdmin = handler.admin = true
 handler.fail = null
-handler.register = true 
 export default handler
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))

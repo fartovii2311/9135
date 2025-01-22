@@ -3,7 +3,7 @@ let handler = async (m, { conn,usedPrefix, command, text, args, isOwner, isAdmin
 var number, user, fkontak, pp, bot, bant, ownerNumber, aa, users, usr
 const isCommand1 = /^(promote|daradmin|darpoder)$/i.test(command)
 const isCommand2 = /^(demote|quitarpoder|quitaradmin)$/i.test(command)
-const isCommand3 = /^(setwelcome|bienvenida|edit(?:ar)?wel(?:come)?)$/i.test(command)
+const isCommand3 = /^(bienvenida|edit(?:ar)?wel(?:come)?)$/i.test(command)
 const isCommand4 = /^(setbye|despedida|edit(?:ar)?(bye)?)$/i.test(command)
 const isCommand5 = /^(setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc)$/i.test(command)
 const isCommand6 = /^(setname|newnombre|nuevonombre|cambiarnombre)$/i.test(command);
@@ -11,7 +11,7 @@ const isCommand7 = /^(setpp(group|grup|gc)?|cambiarpp)$/i.test(command)
 const isCommand8 = /^(nuevolink|nuevoenlace|revoke|resetlink)$/i.test(command)
 const isCommand9 = /^(снести|echar|hechar|sacar|ban)$/i.test(command)
 const isCommand10 = /^(группу|grupo)$/i.test(command)
-const isCommand11 = /^(внимание55|invocar|invocacion|todos|invocación)$/i.test(command)
+const isCommand11 = /^(внимание|invocar|invocacion|todos|invocación)$/i.test(command)
 const isCommand12 = /^(prohibir|prohibit|privar|deprive)$/i.test(command)
 const isCommand13 = /^(add|agregar|invitar|invite|añadir)$/i.test(command)
 
@@ -244,7 +244,7 @@ await conn.reply(m.chat, lenguajeGB.smsInvite4(NumeroUser), m, {mentions: [Numer
 break
 }} 
   
-handler.command = /^(promote|daradmin|группу(?:открыть)?(?:закрыть)?|darpoder|demote|внимание55|quitarpoder|quitaradmin|setwelcome|bienvenida|edit(?:ar)?wel(?:come)?|setbye|despedida|edit(?:ar)?(bye)?|setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc|setname|newnombre|nuevonombre|cambiarnombre|cambiarpp|setpp(group|grup|gc)?|nuevolink|nuevoenlace|revoke|resetlink|снести|echar|hechar|sacar|ban|group|grupo|tagall|invocar|invocacion|todos|invocación|prohibir|prohibit|privar|deprive|add|agregar|invitar|invite|añadir)$/i
+handler.command = /^(promote|daradmin|группу(?:открыть)?(?:закрыть)?|darpoder|demote|внимание|quitarpoder|quitaradmin|setwelcome|bienvenida|edit(?:ar)?wel(?:come)?|setbye|despedida|edit(?:ar)?(bye)?|setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc|setname|newnombre|nuevonombre|cambiarnombre|cambiarpp|setpp(group|grup|gc)?|nuevolink|nuevoenlace|revoke|resetlink|снести|echar|hechar|sacar|ban|group|grupo|tagall|invocar|invocacion|todos|invocación|prohibir|prohibit|privar|deprive|add|agregar|invitar|invite|añadir)$/i
 handler.group = true
 handler.botAdmin = true 
 

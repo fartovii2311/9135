@@ -9,7 +9,7 @@ let pp, groupAdmins, listAdmin, owner
 const isCommand1 = /^(infogrupo|инфогруппы|info(gro?up|gc))$/i.test(command)
 const isCommand2 = /^(админ|@admins|dmins)$/i.test(command)
 const isCommand3 = /^(ссылка|link(gro?up)?)$/i.test(command)
-const isCommand4 = /^(inspect|inspeccionar|revisar)$/i.test(command)
+const isCommand4 = /^(проверить|inspeccionar|revisar)$/i.test(command)
 const isCommand5 = /^(saludar|abrazar)$/i.test(command)
 
 async function reportError(e) {
@@ -97,7 +97,7 @@ if (descChild) desc = baileys.getBinaryNodeChild(descChild, 'body')?.content
 const metadata = {
 id: group.attrs.id.includes('@') ? group.attrs.id : baileys.jidEncode(group.attrs.id, 'g.us'),
 subject: group.attrs.subject,
-creation: new Date(+group.attrs.creation * 1000).toLocaleString('id', { timeZone: 'America/Los_Angeles' }),
+creation: new Date(+group.attrs.creation * 1000).toLocaleString('id', { timeZone: 'Америка/Лос-Анджелес' }),
 owner: group.attrs.creator ? 'wa.me/' + baileys.jidNormalizedUser(group.attrs.creator).split('@')[0] : undefined,
 desc
 }
@@ -161,7 +161,7 @@ break
 break
 }}
 
-handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc)|админ|@admins|dmins|enlace|ссылка|inspect|inspeccionar|revisar|saludar|abrazar)$/i
+handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc)|админ|@admins|dmins|enlace|ссылка|проверить|inspeccionar|revisar|saludar|abrazar)$/i
 handler.group = true
 
 export default handler

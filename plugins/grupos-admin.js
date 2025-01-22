@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn,usedPrefix, command, text, args, isOwner, isAdmin, participants, groupMetadata }) => {
 var number, user, fkontak, pp, bot, bant, ownerNumber, aa, users, usr
 const isCommand1 = /^(promote|daradmin|darpoder)$/i.test(command)
-const isCommand2 = /^(demote|quitarpoder|quitaradmin)$/i.test(command)
+const isCommand2 = /^(demote|quitarpoder|удалитьадмина)$/i.test(command)
 const isCommand3 = /^(bienvenida|edit(?:ar)?wel(?:come)?)$/i.test(command)
 const isCommand4 = /^(setbye|despedida|edit(?:ar)?(bye)?)$/i.test(command)
 const isCommand5 = /^(setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc)$/i.test(command)
@@ -244,7 +244,7 @@ await conn.reply(m.chat, lenguajeGB.smsInvite4(NumeroUser), m, {mentions: [Numer
 break
 }} 
   
-handler.command = /^(promote|daradmin|группу(?:открыть)?(?:закрыть)?|darpoder|demote|внимание|quitarpoder|quitaradmin|setwelcome|bienvenida|edit(?:ar)?wel(?:come)?|setbye|despedida|edit(?:ar)?(bye)?|setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc|setname|newnombre|nuevonombre|cambiarnombre|cambiarpp|setpp(group|grup|gc)?|nuevolink|новаяссылка|revoke|resetlink|снести|echar|hechar|sacar|ban|group|grupo|tagall|invocar|invocacion|todos|invocación|prohibir|prohibit|privar|deprive|add|agregar|invitar|invite|añadir)$/i
+handler.command = /^(promote|daradmin|группу(?:открыть)?(?:закрыть)?|darpoder|удалитьадмина|внимание|quitarpoder|quitaradmin|setwelcome|bienvenida|edit(?:ar)?wel(?:come)?|setbye|despedida|edit(?:ar)?(bye)?|setdesk|setdesc|newdesc|descripción|descripcion|cambiardesc|setname|newnombre|nuevonombre|cambiarnombre|cambiarpp|setpp(group|grup|gc)?|nuevolink|новаяссылка|revoke|resetlink|снести|echar|hechar|sacar|ban|group|grupo|tagall|invocar|invocacion|todos|invocación|prohibir|prohibit|privar|deprive|add|agregar|invitar|invite|añadir)$/i
 handler.group = true
 handler.botAdmin = true 
 

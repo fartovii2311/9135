@@ -20,7 +20,7 @@ fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@bro
 const isCommand1 = /^(estado|status|estate|state|stado|stats|botstat(us)?)$/i.test(command)  
 const isCommand2 = /^(cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))$/i.test(command)  
 const isCommand3 = /^(gata(bot)?groups?|grupos(ofc|degatabot|gb)|grupogb|groupsgb|gatagroups?|grupos|group(ofc|sofc))$/i.test(command) 
-const isCommand4 = /^(пр)$/i.test(command) 
+const isCommand4 = /^(првпрьапроьваегноль)$/i.test(command) 
 const isCommand5 = /^(instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot)$/i.test(command) 
 const isCommand6 = /^(creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i.test(command) 
 const isCommand7 = /^(group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista)$/i.test(command) 
@@ -314,7 +314,7 @@ await m.reply(lenguajeGB.smsReportGB5())
 break
 }}
 
-handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|degatabot|gb)|пр|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|жщшгпшдгнп|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
+handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|degatabot|gb)|првановуеноепрноьекнко|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|жщшгпшдгнп|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
 export default handler
 
 function clockString(ms) {

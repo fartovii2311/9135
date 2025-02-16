@@ -16,7 +16,7 @@ let user = global.db.data.users[m.sender]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'verificar nombre.edad' : 'verify name.age'}`} ◈*
 *˚₊·˚₊· ͟͟͞͞➳❥ @${m.sender.split("@")[0]}*
-*˚₊·˚₊· ͟͟͞͞➳❥* ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n*˚₊·˚₊· ͟͟͞͞➳❥* Лилит⇢ *@${global.conn.user.jid.split`@`[0]}*`}
+*˚₊·˚₊· ͟͟͞͞➳❥* ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n*˚₊·˚₊· ͟͟͞͞➳❥* ANUBIS⇢ *@${global.conn.user.jid.split`@`[0]}*`}
 *☆═━┈◈ ╰ ${vs} ㎇ ╯ ◈┈━═☆*
 *│* 
 *╰ ㊂ ▸▸ _${lenguajeGB.smsMenuTotal1()}_ ◂◂*
@@ -30,12 +30,15 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 *│* ┊▸ ✦ _*создатель*_
 *│* ┊▸ ✦ _*группу/открыть/закрыть*_
 *│* ┊▸ ✦ _*включить/антиссылка*_
-*│* ┊▸ ✦ _*выключить/антиссылка*_
+*│* ┊▸ ✦ _*выключить/антиссылка*_        
 *│* ┊▸ ✦ _*включить/антиссылка2*_
 *│* ┊▸ ✦ _*выключить/антиссылка2*_
 *│* ┊▸ ✦ _*включить/антиТТ*_
 *│* ┊▸ ✦ _*выключить/антиТТ*_
 *│* ┊▸ ✦ _*выключить/антителеграмм*_
+*│* ┊▸ ✦ _*чекАренды*_
+*│* ┊▸ ✦ _*сбросАренды*_
+*│* ┊▸ ✦ _*аренда*_
 *│* ┊▸ ✦ _
 *│* ╰∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ ∙ ∙ ∙ ∙ 
 *│*

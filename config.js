@@ -13,18 +13,18 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['+79883576985', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //Лилит 🌻🐈
-['+79883576985', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true],
-['+79883576985'],
-['+79883576985'],
-['+79883576985'], 
-['+79883576985'],
-['+79883576985'],
-['+79883576985'],
-['+79883576985'],
-['+79883576985'], 
-['+79883576985'],
-['+79883576985']]
+['+79963107770', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //ANUBIS 🌻🐈
+['+79963107770', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true],
+['+79963107770'],
+['+79963107770'],
+['+79963107770'], 
+['+79963107770'],
+['+79963107770'],
+['+79963107770'],
+['+79963107770'],
+['+79963107770'], 
+['+79963107770'],
+['+79963107770']]
 
 global.mods = [] 
 global.prems = []
@@ -97,16 +97,16 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = 'Лилит 🌻🐈'
-global.author = 'Лилит'
+global.packname = 'ANUBIS 🌻🐈'
+global.author = 'ANUBIS'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['+79883576985', 'Лилит 💻', 1], 
-['+79883576985', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-['+79883576985', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
-['+79883576985', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
+['+79963107770', 'ANUBIS 💻', 1], 
+['+79963107770', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+['+79963107770', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
+['+79963107770', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -116,7 +116,7 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 global.vs = '1.4.0'
 global.vsJB = '4.5'
 
-global.gt = 'Лилит'
+global.gt = 'ANUBIS'
 global.yt = 'https://youtube.com'
 global.yt2 = 'https://www.youtube.com'
 global.ig = 'https://www.instagram.com'
@@ -139,8 +139,8 @@ global.nnnttt5 = 'https://chat.whatsapp.com' //A.T.M.M
 global.paypal = 'https://paypal.me'
 global.asistencia = 'Wa.me/19393844141' //Dudas? escríbeme...
 
-global.wm = 'Лилит 🌻🐈 : Лилит'
-global.igfg = 'Лилит'
+global.wm = 'ANUBIS 🌻🐈 : ANUBIS'
+global.igfg = 'ANUBIS'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/менюю.jpg')

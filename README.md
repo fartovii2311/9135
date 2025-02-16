@@ -48,8 +48,8 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/fartovii2311/356 
-cd 356
+git clone https://github.com/fartovii2311/9135
+cd 9135
 yarn install
 npm install
 npm start
@@ -100,7 +100,7 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 - **Estado de servicios:** [`Aquí`](https://status.corinplus.com)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com)
 - **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com)
-- **Contacto:** [`Лилит`](https://wa.me/message)
+- **Contacto:** [`ANUBIS`](https://wa.me/message)
 - **Contacto:** [`elrebelde21`](https://facebook.com)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - GataBotLite-MD**</summary><img src="https://telegra.ph/file/b7e3721c6ae2caeb7f44c.jpg"></details>

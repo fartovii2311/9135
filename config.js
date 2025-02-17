@@ -13,7 +13,7 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['+79963107770', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //ANUBIS 🌻🐈
+['+79963107770', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𓋹 ANUBIS 𓋹 
 ['+79963107770', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true],
 ['+79963107770'],
 ['+79963107770'],
@@ -97,7 +97,7 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = 'ANUBIS 🌻🐈'
+global.packname = '𓋹ANUBIS 𓋹'
 global.author = 'ANUBIS'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
@@ -139,8 +139,8 @@ global.nnnttt5 = 'https://chat.whatsapp.com' //A.T.M.M
 global.paypal = 'https://paypal.me'
 global.asistencia = 'Wa.me/19393844141' //Dudas? escríbeme...
 
-global.wm = 'ANUBIS 🌻🐈 : ANUBIS'
-global.igfg = 'ANUBIS'
+global.wm = '𓋹ANUBIS 𓋹 : ANUBIS'
+global.igfg = '𓋹ANUBIS'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/менюю.jpg')
